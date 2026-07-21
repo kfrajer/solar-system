@@ -33,5 +33,5 @@ jobs:
         - name: Archive Test Result
           uses: actions/upload-artifact@v3
           with:
-            name: Mocha-Test-Result # It is the artifact refence... what is hsows in the GHActions UI or when referencing it in a 'Download artifact' step
+            name: Mocha-Test-Result # It is the artifact refence... what is shows in the GitHub-Actions UI or when referencing it in a 'Download artifact' step
             path: test-results.xml
